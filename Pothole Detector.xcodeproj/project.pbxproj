@@ -11,10 +11,7 @@
 		78A1046223478D520057DA5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1046123478D520057DA5D /* SceneDelegate.swift */; };
 		78A1046423478D520057DA5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1046323478D520057DA5D /* ContentView.swift */; };
 		78A1046623478D540057DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1046523478D540057DA5D /* Assets.xcassets */; };
-		78A1046923478D540057DA5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A1046823478D540057DA5D /* Preview Assets.xcassets */; };
 		78A1046C23478D540057DA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A1046A23478D540057DA5D /* LaunchScreen.storyboard */; };
-		78A1047723478D540057DA5D /* Pothole_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1047623478D540057DA5D /* Pothole_DetectorTests.swift */; };
-		78A1048223478D540057DA5D /* Pothole_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A1048123478D540057DA5D /* Pothole_DetectorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +37,10 @@
 		78A1046123478D520057DA5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78A1046323478D520057DA5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78A1046523478D540057DA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		78A1046823478D540057DA5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78A1046B23478D540057DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A1046D23478D540057DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A1047223478D540057DA5D /* Pothole DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pothole DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A1047623478D540057DA5D /* Pothole_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pothole_DetectorTests.swift; sourceTree = "<group>"; };
-		78A1047823478D540057DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A1047D23478D540057DA5D /* Pothole DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pothole DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78A1048123478D540057DA5D /* Pothole_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pothole_DetectorUITests.swift; sourceTree = "<group>"; };
-		78A1048323478D540057DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				78A1045E23478D520057DA5D /* Pothole Detector */,
-				78A1047523478D540057DA5D /* Pothole DetectorTests */,
-				78A1048023478D540057DA5D /* Pothole DetectorUITests */,
 				78A1045D23478D520057DA5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,35 +95,8 @@
 				78A1046523478D540057DA5D /* Assets.xcassets */,
 				78A1046A23478D540057DA5D /* LaunchScreen.storyboard */,
 				78A1046D23478D540057DA5D /* Info.plist */,
-				78A1046723478D540057DA5D /* Preview Content */,
 			);
 			path = "Pothole Detector";
-			sourceTree = "<group>";
-		};
-		78A1046723478D540057DA5D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				78A1046823478D540057DA5D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		78A1047523478D540057DA5D /* Pothole DetectorTests */ = {
-			isa = PBXGroup;
-			children = (
-				78A1047623478D540057DA5D /* Pothole_DetectorTests.swift */,
-				78A1047823478D540057DA5D /* Info.plist */,
-			);
-			path = "Pothole DetectorTests";
-			sourceTree = "<group>";
-		};
-		78A1048023478D540057DA5D /* Pothole DetectorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				78A1048123478D540057DA5D /* Pothole_DetectorUITests.swift */,
-				78A1048323478D540057DA5D /* Info.plist */,
-			);
-			path = "Pothole DetectorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A1046C23478D540057DA5D /* LaunchScreen.storyboard in Resources */,
-				78A1046923478D540057DA5D /* Preview Assets.xcassets in Resources */,
 				78A1046623478D540057DA5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1047723478D540057DA5D /* Pothole_DetectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A1048223478D540057DA5D /* Pothole_DetectorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +398,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pothole Detector/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Pothole Detector/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +418,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pothole Detector/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Pothole Detector/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

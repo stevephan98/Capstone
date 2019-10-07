@@ -6,16 +6,14 @@
 //  Copyright © 2019 Analog Dawgs. All rights reserved.
 //
 
-import SwiftUI
+import UIKit
+import MapKit
 
-struct ContentView: View {
-    var body: some View {
-        Text("Hello World")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+class MapScreen: UIViewController {
+    
+    @IBOutlet weak var mapView: MKMapView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //mapView.delegate = self
     }
 }
